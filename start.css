@@ -1,0 +1,83 @@
+html {
+    position: relative;
+    height: 100%;
+    background-color: hsl(205, 100%, 83%)
+}
+
+body {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    min-height: 90%;
+}
+
+header {
+    background-color: #ffffff;
+    min-height: 26px;
+    padding: 5px;
+}
+
+.title {
+    margin: 0;
+}
+.main {
+    padding-top: 300px;
+    height: 80%;
+    min-height: 80%;
+}
+
+.main-button{
+    margin: auto;
+    margin-top: 300;
+    width: 286px;
+    height: 94px;
+    border-radius: 40px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    align-content: bottom;
+    font-style: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800px;
+    line-height: normal;
+    text-align: center;
+}
+
+.button-dictionary{
+    margin-left: 10px;
+    border-radius: 40px;
+    background: #FFF;
+    width: 115px;
+    padding: 10px 17px 0px 17px;
+    justify-content: center;
+    align-items: center;    
+    width: 81px;
+    height: 32px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.text {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.text2 {
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}

@@ -10,3 +10,4 @@ nextBtn.addEventListener('click', function() {
 prevBtn.addEventListener('click', function() {
     
 })
+
