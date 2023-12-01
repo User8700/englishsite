@@ -143,3 +143,36 @@
     border: none;
     background-color: #ffffff;
 }
+
+.game-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    width: 581px;
+    height: 52px;
+    border-radius: 10px;
+    font-size: 24px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.word-container{
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    width: 323px;
+    height: 94px;
+    border-radius: 15px;
+    font-size: 32px;
+    border: none;
+    background-color: #ffffff;
+}
