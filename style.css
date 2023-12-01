@@ -1,0 +1,145 @@
+.body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #AADBFF;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: #ffffff;
+    min-height: 26px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    margin: 0;
+}
+
+.home {
+    display: block;
+    position: relative;
+    height: 50px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.home-body {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+}
+
+.roof {
+    position: absolute;
+    top: 10px;
+    left: -4px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid #000;
+}
+
+.main{
+    padding-top: 100px;
+}
+
+.main-block{
+    width: 369px;
+    height: 369px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+.main-block-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-block-col{
+    list-style: none;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.button-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.page-button1{
+    font-family: "Montserrat", sans-serif;
+    width: 127px;
+    height: 31px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.page-button2{
+    font-family: "Montserrat", sans-serif;
+    width: 127px;
+    height: 31px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.start-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.start-button{
+    font-family: "Montserrat", sans-serif;
+    width: 286px;
+    height: 94px;
+    border-radius: 40px;
+    font-size: 40px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.dict-button-container{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 50px;
+    margin-top: 250px;
+    font-size: 20px;
+}
+
+.dict-button{
+    font-family: "Montserrat", sans-serif;
+    width: 135px;
+    height: 57px;
+    border-radius: 40px;
+    font-size: 20px;
+    border: none;
+    background-color: #ffffff;
+}
