@@ -68,11 +68,22 @@ class Question {
                 chooseBtn[i].classList.add(status);
                 setTimeout(function() {
                     chooseBtn[i].classList.remove(status);
-                }, 500);
+                    curIndex++;
+                    if (curIndex < questions.length) {
+                        curQuestion = questions[curIndex];
+                        curQuestion.display();
+                    }
+                }, 100);
             });
         }
     }
 }
 
-let question = new Question(words);
-question.display();
+let questions = [];
+for (let i = 0; i < 5; i++) {
+    let question = new Question(words);
+    questions.push(question);
+}
+let curIndex = 0;
+let curQuestion = questions[curIndex];
+curQuestion.display();
